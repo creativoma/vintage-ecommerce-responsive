@@ -1,8 +1,8 @@
 import { counter } from "@fortawesome/fontawesome-svg-core";
 import React, { useState, useEffect } from "react";
-import ItemCount from "../components/ItemCount";
+import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
-import { getProducts } from '../products/Products' //Importamos datos del array Products en esta F
+import { getProducts } from '../data';
 import { useParams } from "react-router-dom";
 
 

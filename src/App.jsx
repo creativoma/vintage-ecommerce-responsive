@@ -7,8 +7,7 @@ import ItemDetailContainer from './components/ItemDetailContainer';
 import Cart from './components/Cart';
 import CartContextProvider from './context/CartContext';
 
-
-function App() {
+export default function App() {
   return (
     <>
     <CartContextProvider>
@@ -27,5 +26,3 @@ function App() {
     </>
   );
 }
-
-export default App;

@@ -1,15 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --first-color: #f00;
+  --second-color: #0f0;
+  --third-color: #00f;
+  --fourth-color: #f0f;
+  --grey-one: #3b3b3b;
+  --grey-two: #595959;
+  --grey-three: #f3f3f380;
+  --grey-four: #cfcfcf;
 }
 
 #btnCarrito{
@@ -19,23 +16,16 @@ code {
 .imgCarrito{
   height: 30px;
   width: 30px;
-  
 }
 
-/* #counterCarrito{
-  visibility: hidden;
-} */
-
-/* Logo Vintage */
 #imgLogo{
   margin-right: 4px;
   border-radius: 10%;
 }
 #imgLogo:hover{
-  box-shadow: 1px 3px 3px #f3f3f380;
+  box-shadow: 1px 3px 3px var(--grey-three);
 }
 
-/* Caja que envuelve a Counter */
 #cajaCounter{
   height: 45px;
   width: 200px;
@@ -44,17 +34,18 @@ code {
   margin-bottom: 0px;
   padding-top: 5px;
   border-radius: 4px;
-  background: #cfcfcf;
-  box-shadow:  4px 4px 15px #3b3b3b,
-             -2px -2px 5px #595959;
+  background: var(--grey-four);
+  box-shadow:
+    4px 4px 15px var(--grey-one),
+    -2px -2px 5px var(--grey-two);
 }
+
 #cajaCantidadCounter{
   margin-left: 50px; 
   margin-right: 50px;
 
 }
 
-/* Botones de Counter */
 #btnSuma{
   margin-bottom: 5px;
   margin-left: 2px;

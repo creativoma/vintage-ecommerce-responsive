@@ -112,16 +112,10 @@ const Products = [
    
 ]
 
-//Funcion donde: 
-//1 creamos una Promise - 
-//2 Resolvemos con un SetTimeout que nos devuelva el array en dos seg
 export const getProducts = () => {
   return new Promise((resolve, reject) => {
       setTimeout(() => {
           resolve(Products)
-      }, 2000);
+      }, 1000);
   });
-} 
-
-
-
+}

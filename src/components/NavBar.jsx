@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import CartWidget from './CartWidget';
-import vintagelogo from '../assets/vintagelogo.png'
+import vintagelogo from '../img/vintagelogo.png';
 import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {

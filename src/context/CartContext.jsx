@@ -1,6 +1,5 @@
 import { createContext, useState } from "react";
 
-
 export const CartContext = createContext() //Creamos un espacio global de memoria (context)
 
 const CartContextProvider = ({ children }) => {
@@ -42,11 +41,9 @@ const CartContextProvider = ({ children }) => {
     }
 
     return(
-
         <CartContext.Provider  value={[{ items, addItem, removeItem, clearItems, totalPrenda }]}>
             {children}
         </CartContext.Provider>
-
     );
 
 }
