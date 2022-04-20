@@ -10,7 +10,7 @@ El proyecto se encuenta en desarrollo y cuenta con:
 * Formulario de compra: vista del formulario donde el cliente ingresa sus datos personales para luego confirmar la compra. (en desarrollo)
 
 
-## Instalación 🔧
+## Instalación
 
 _1. Forkear y clonar el repositorio del proyecto_
 
@@ -28,7 +28,7 @@ npm start
 ```
 _El proyecto estará disponible en http://localhost:3000._
 
-## Construido con 🛠️
+## Construido
 
 _Las herramientas utilizadas para el desarrollo del proyecto son las siguientes:_
 
@@ -37,7 +37,11 @@ _Las herramientas utilizadas para el desarrollo del proyecto son las siguientes:
 * [NodeJs](https://nodejs.org/es/) - Manejador de dependencias
 * [Fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons) - Usado para generar Iconos 
 
-## Autores ✒️
+## Despliegle
+
+* Despliegle en [Vercel](https://vintage-ecommerce-responsive.vercel.app/) con Vite.js
+
+## Autores
 
 _El proyecto fue realizado por:_ [**Bernardo Sanchez**](https://github.com/bernasanchez)
 
