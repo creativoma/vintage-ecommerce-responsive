@@ -46,6 +46,6 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 _El proyecto fue realizado por:_
 
-* **Bernardo Sanchez** - *V I N T E D* - [bernasanchez]https://github.com/bernasanchez)
+* **Bernardo Sanchez** - *V I N T E D* - [bernasanchez](https://github.com/bernasanchez)
 
 ---
