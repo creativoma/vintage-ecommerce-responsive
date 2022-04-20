@@ -10,8 +10,7 @@ El proyecto se encuenta en desarrollo y cuenta con:
 * Formulario de compra: vista del formulario donde el cliente ingresa sus datos personales para luego confirmar la compra. (en desarrollo)
 
 
-
-### Instalación 🔧
+## Instalación 🔧
 
 _1. Forkear y clonar el repositorio del proyecto_
 
@@ -38,14 +37,8 @@ _Las herramientas utilizadas para el desarrollo del proyecto son las siguientes:
 * [NodeJs](https://nodejs.org/es/) - Manejador de dependencias
 * [Fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons) - Usado para generar Iconos 
 
-## Wiki 📖
+## Autores ✒️
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/bernasanchez/vintage)
+_El proyecto fue realizado por:_ [**Bernardo Sanchez**](https://github.com/bernasanchez)
 
-## Autor ✒️
-
-_El proyecto fue realizado por:_
-
-* **Bernardo Sanchez** - *V I N T E D* - [bernasanchez](https://github.com/bernasanchez)
-
----
+_El proyecto fue forkeado por:_ [**Mariano Álvarez**](https://github.com/creativoma)
