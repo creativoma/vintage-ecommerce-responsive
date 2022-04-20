@@ -24,7 +24,7 @@ _De esta manera, ya tendrás instaladas todas las dependencias del proyecto_
 
 _3. Para correr el proyecto utiliza el siguiente comando_
 ```
-npm start
+npm dev
 ```
 _El proyecto estará disponible en http://localhost:3000._
 
