@@ -1,4 +1,4 @@
-# V I N T E D
+# "Vinted" Responsive Ecommerce
 
 _VINTED es un E-commerce responsive que permite la compra de ropa y accesorios para el hogar. Esta basado en el framework Bootstrap 5.0 y fue desarrollado con React Js, JavaScript, CSS3 y HTML5._
 
