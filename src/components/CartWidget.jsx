@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import {useContext} from 'react';
-import {CartContext} from '../context/CartContext';
+import { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
 
 const CartWidget = () => {
    const [{items}] = useContext(CartContext);
@@ -14,7 +14,7 @@ const CartWidget = () => {
 
     return (
        <>
-        <button className="btn btn-outline-success btn-sm" id="btnCarrito" >
+        <button className="btn btn-sm" id="btnCarrito" >
             { <FontAwesomeIcon icon={faCartShopping} style={{marginRight:'3px'}}/> }
             {itemsInCart > 0 ? <span>{itemsInCart}</span> : <span style={{visibility: 'hidden'}}></span>  }
         </button>       

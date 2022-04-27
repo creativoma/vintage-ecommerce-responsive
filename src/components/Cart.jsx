@@ -28,7 +28,7 @@ const Cart = () => {
                 </div>
                 :
                 <div className="alert alert-danger" role="alert">
-                   Tu carrito está vacío... <Link to='/' style={{textDecoration: 'none', color: 'black', paddingLeft:'700px'}}> Volver a Home </Link>
+                   Tu carrito está vacío... <Link to='/' style={{textDecoration: 'none', color: 'black'}}> Volver a Home </Link>
                 </div>
             }
             
@@ -50,7 +50,7 @@ const Cart = () => {
                                     <div className="card-body">
                                         <h5 className="card-title h1">{item.name}</h5>
                                         <br></br>
-                                        <p className="card-text h4 "> Precio $ {item.price}</p>
+                                        <p className="card-text h4">Precio $ {item.price}</p>
                                         <p className="card-text h4">Cantidad: {item.counter}</p>
                                         <p className="card-text h4">Total Producto/s $ {totalPrenda(item.id)} </p>
                                         <br></br>

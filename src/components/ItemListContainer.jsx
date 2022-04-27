@@ -1,6 +1,4 @@
-import { counter } from "@fortawesome/fontawesome-svg-core";
 import React, { useState, useEffect } from "react";
-import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
 import { getProducts } from '../data';
 import { useParams } from "react-router-dom";
@@ -27,10 +25,8 @@ const ItemListContainer = ({ }) => {
 
     return (
         <>
-            <div className="container mt-2" >
-            <div className='titulosPaginas mb-3'>
+            <div className='titulosPaginas mb-4'>
             <h2>Productos Disponibles</h2>
-            </div>
             </div>
             <ItemList  productos = {ropa} />
         </>

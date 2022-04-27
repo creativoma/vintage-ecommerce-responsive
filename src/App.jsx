@@ -13,7 +13,7 @@ export default function App() {
     <CartContextProvider>
       <BrowserRouter>
         <NavBar />
-        <div className="container mt-2">
+        <div className="container mt-4 mb-4">
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
           <Route path='/category/:categoryName' element={<ItemListContainer />} />

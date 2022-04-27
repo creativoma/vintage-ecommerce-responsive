@@ -9,8 +9,17 @@
   --grey-four: #cfcfcf;
 }
 
+* {
+  font-family:  'Inter', sans-serif;
+}
+
+div.container-fluid{
+  padding: 0 50px;
+}
+
 #btnCarrito{
-  font-size: 85%;
+  color: var(--grey-four);
+  border: 1px solid var(--grey-four);
 }
 
 .imgCarrito{
@@ -18,10 +27,21 @@
   width: 30px;
 }
 
-#imgLogo{
-  margin-right: 4px;
-  border-radius: 10%;
+img#imgLogo{
+  margin-right: 10px;
 }
+
+ul.navbar-nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+a.navbar-brand {
+  display: flex;
+}
+
 #imgLogo:hover{
   box-shadow: 1px 3px 3px var(--grey-three);
 }

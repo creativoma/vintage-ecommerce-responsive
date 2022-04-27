@@ -1,6 +1,6 @@
-# "Vinted" Responsive Ecommerce
+# "Vintage" Responsive Ecommerce
 
-_VINTED es un E-commerce responsive que permite la compra de ropa y accesorios para el hogar. Esta basado en el framework Bootstrap 5.0 y fue desarrollado con React Js, JavaScript, CSS3 y HTML5._
+_VINTAGE es un E-commerce responsive que permite la compra de ropa y accesorios para el hogar. Esta basado en el framework Bootstrap 5.0 y fue desarrollado con React Js, JavaScript, CSS3 y HTML5._
 
 El proyecto se encuenta en desarrollo y cuenta con: 
 * Menu de Navegación: cuatro categorías navegables gracias a la implementacion de React Router Dom.

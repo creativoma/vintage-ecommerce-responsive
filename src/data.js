@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Products = [
     {
       id: 1,
@@ -114,8 +112,7 @@ const Products = [
 
 export const getProducts = () => {
   return new Promise((resolve, reject) => {
-      setTimeout(() => {
-          resolve(Products)
-      }, 1000);
+    resolve(Products),
+    reject(new Error("Error al obtener los productos"))
   });
 }
