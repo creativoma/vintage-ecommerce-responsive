@@ -5,14 +5,9 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 const ItemCount = ({stock, initial, item, addItem}) => {
-    // console.log('Producto en ItemCount', item); 
-    
     const [counter, setCounter] = useState(initial);
     
-    // const buttonSuma = document.getElementById('btnSuma');
-    // buttonSuma.disabled = "true"
     const Suma = () => {
-        // console.log(counter);
         if(counter < stock ){
             setCounter(counter + 1); 
         }else{
@@ -20,8 +15,6 @@ const ItemCount = ({stock, initial, item, addItem}) => {
         }     
     }
 
-    // const buttonResta = document.getElementById('btnResta');
-    // buttonResta.disabled = "true"
     const Resta = () => {
         if(counter > 0){
             setCounter(counter - 1); 

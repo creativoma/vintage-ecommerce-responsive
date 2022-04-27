@@ -1,7 +1,6 @@
 import { createContext, useState } from "react";
 
-
-export const CartContext = createContext() //Creamos un espacio global de memoria (context)
+export const CartContext = createContext() 
 
 const CartContextProvider = ({ children }) => {
 
@@ -24,8 +23,6 @@ const CartContextProvider = ({ children }) => {
             :
             setItems([...items, {id: item.id, name: item.title, price: item.price, picture: item.picture, counter: counter}]);
             console.log('Producto en addItem', item);
-            // alert('llegando');   
-            // console.log('producto desde CartContextProvider', item);
     }
 
     const removeItem = (id) => {
@@ -57,13 +54,15 @@ const CartContextProvider = ({ children }) => {
     const totalCompra = () => {
         return (subTotalProductos() + impuestos() + costoEnvio());
     }
+    const finalizarCompra = () => {
+        setItems([]);
+        alert("Gracias por su compra!");
+    }
 
     return(
-
-        <CartContext.Provider  value={[{ items, addItem, removeItem, clearItems, totalPrenda, subTotalProductos, impuestos, costoEnvio, totalCompra  }]}>
+        <CartContext.Provider  value={[{ items, addItem, removeItem, clearItems, totalPrenda, subTotalProductos, impuestos, costoEnvio, totalCompra, finalizarCompra }]}>
             {children}
         </CartContext.Provider>
-
     );
 
 }

@@ -1,9 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
 const Item = ({ id, title, description, price, picture }) =>{
-    // console.log(title,  'Productos estan en Item') 
     return (
         <>
             <div className="col-xl-3" >
@@ -23,9 +21,7 @@ const Item = ({ id, title, description, price, picture }) =>{
                 </div>
             </div> 
         </>
-
     );
-    
 }
 
 export default Item; 

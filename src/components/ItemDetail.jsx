@@ -6,18 +6,9 @@ import FinalizarCompra from './FinalizarCompra';
 import {useContext} from 'react';
 import {CartContext} from '../context/CartContext';
 
-
-
 const ItemDetail = ({ producto }) => {
-    console.log('Detalle de Producto en ItemDetail', producto);  //Aca se muestra el Detalle del Producto
-   
-    const [productoAgregado, setproductoAgregado] = useState(1)//Nuevo estado para counter: le asignamos un estado inicial en 1(initial={productoAgregado})
-    
-    // const onAdd = (counter) => {                // Al ejecutar onAdd: tomamos valor de counter como parámetro y seteamos nuestro estado inicial (productoAgregado) por el nuevo valor (se muestra x medio de alert)
-    //     alert('Agregaste' + ' '  + counter + ' '+  'productos al carrito!');
-    //     setproductoAgregado(counter);
-    // }
-   
+    console.log('Detalle de Producto en ItemDetail', producto);
+    const [productoAgregado, setproductoAgregado] = useState(1)
     const [{ addItem }] = useContext(CartContext);
     
     return ( 
@@ -54,8 +45,6 @@ const ItemDetail = ({ producto }) => {
                 </div>
             </div>
         </div>
-
-
         </>
 
     );

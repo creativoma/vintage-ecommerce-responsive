@@ -4,15 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
-
 const Cart = () => {
    
-    const [{ items, removeItem, clearItems, totalPrenda, subTotalProductos, impuestos, costoEnvio, totalCompra }] = useContext(CartContext);
+    const [{ items, removeItem, clearItems, totalPrenda, subTotalProductos, impuestos, costoEnvio, totalCompra, finalizarCompra }] = useContext(CartContext);
     console.log('Item en cart', items);
    
     return(
         <>
-        
         <div className="container mt-2" >
             <div className='titulosPaginas mb-3'>
                 <h2>Mi Carrito</h2>
@@ -56,8 +54,6 @@ const Cart = () => {
                                         <p className="card-text h4">Cantidad: {item.counter}</p>
                                         <p className="card-text h4">Total Producto/s $ {totalPrenda(item.id)} </p>
                                         <br></br>
-                                        {/* <p className="card-text h4">Total: {items.totalPrenda(item.id)} </p> */}
-                                        <br></br>
                                         <button className="btn btn-danger" onClick={() => removeItem(item.id)}>
                                             { <FontAwesomeIcon icon={faClipboardCheck} style={{marginRight:'5px'}}/> }
                                             Eliminar Producto 
@@ -71,7 +67,6 @@ const Cart = () => {
                 </div>   
             ))   
         }
-
         {
             items.length > 0 &&
              <div className="col-sm-4" style={{position: 'relative'}}>
@@ -92,20 +87,15 @@ const Cart = () => {
                          TOTAL  $ {totalCompra()}
                          </div>
                          <br></br>
-                         <button className="btn btn-success btn-sm mb-2" >
+                         <button className="btn btn-success btn-sm mb-2" onClick={finalizarCompra}>
                              { <FontAwesomeIcon icon={faClipboardCheck} style={{marginRight:'5px'}}/> }
                              Finalizar Compra
                          </button> 
                 </div>
             </div>
         }
-               
-
-           
-
         </div>
         </>
-
     );
 }
 export default Cart;

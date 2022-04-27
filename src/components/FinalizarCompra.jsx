@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
 
 const FinalizarCompra = () => {
-
     return(
         <>
         <button className="btn btn-success" >
