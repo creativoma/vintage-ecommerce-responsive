@@ -14,7 +14,7 @@ const Item = ({ id, title, description, price, picture }) =>{
                     <button className="btn btn-dark d-grid gap-2 mx-auto">
                         <NavLink 
                             to={`/item/${id}`} 
-                            style={{textDecoration: 'none', color: 'white'}} >Ver Detalle del Producto
+                            style={{textDecoration: 'none', color: 'white'}}>Ver más
                         </NavLink>
                     </button>
                 </div>

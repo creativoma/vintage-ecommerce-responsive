@@ -25,7 +25,7 @@ const ItemDetail = ({ producto }) => {
             <div key={producto.id} className="card mb-3" >
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src={producto.picture} className="img-fluid rounded-start" alt="" />
+                        <img src={producto.picture} className="img-fluid" alt="" />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body"> 

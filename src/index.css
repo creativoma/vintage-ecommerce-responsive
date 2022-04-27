@@ -1,8 +1,4 @@
 :root{
-  --first-color: #f00;
-  --second-color: #0f0;
-  --third-color: #00f;
-  --fourth-color: #f0f;
   --grey-one: #3b3b3b;
   --grey-two: #595959;
   --grey-three: #f3f3f380;
@@ -14,7 +10,7 @@
 }
 
 div.container-fluid{
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 #btnCarrito{
@@ -27,8 +23,21 @@ div.container-fluid{
   width: 30px;
 }
 
+img.img-fluid{
+  width: 100%;
+  border: 0px;
+}
+
+.img-thumbnail{
+  border: 0px;
+}
+
 img#imgLogo{
   margin-right: 10px;
+}
+
+div.card {
+  margin-bottom: 20px ;
 }
 
 ul.navbar-nav{
@@ -37,50 +46,36 @@ ul.navbar-nav{
   width: 100%;
   justify-content: flex-end;
 }
-
+v
 a.navbar-brand {
   display: flex;
+  align-items: center;
 }
 
 #imgLogo:hover{
   box-shadow: 1px 3px 3px var(--grey-three);
 }
 
-#cajaCounter{
-  height: 45px;
-  width: 200px;
-  text-align: center;
+img.card-img-top{
+  margin: 0;
+  padding: 0;
+}
+
+h5.card-title{
   margin-top: 10px;
-  margin-bottom: 0px;
-  padding-top: 5px;
-  border-radius: 4px;
-  background: var(--grey-four);
-  box-shadow:
-    4px 4px 15px var(--grey-one),
-    -2px -2px 5px var(--grey-two);
+}
+
+#cajaCounter{
+  height: auto;
+  width:  fit-content;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-four);
 }
 
 #cajaCantidadCounter{
-  margin-left: 50px; 
-  margin-right: 50px;
-
+  margin: 0px 10px
 }
 
-#btnSuma{
-  margin-bottom: 5px;
-  margin-left: 2px;
-}
-#btnResta{
-  margin-bottom: 5px;
-  margin-right: 2px;
-}
 
-#btnAgregar{
-  margin-top: 0px;
-  width: 200px;
-}
-
-#btnFinalizarCompra{
-  margin-top: 5px;
-  width: 200px;
-}

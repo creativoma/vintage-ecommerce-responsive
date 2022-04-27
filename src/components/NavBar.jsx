@@ -1,8 +1,7 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import CartWidget from './CartWidget';
 import vintagelogo from '../img/vintagelogo.png';
 import { NavLink, Link } from 'react-router-dom';
-
 
 const NavBar = () => {
     return (
@@ -23,16 +22,16 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink to='/' className="nav-link" aria-current="page">Inicio</NavLink>
+                            <NavLink to='/' className="nav-link" aria-current="page">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/category/hombres' className="nav-link">Hombres</NavLink>
+                            <NavLink to='/category/hombre' className="nav-link">Hombre</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/category/mujeres' className="nav-link">Mujeres</NavLink>
+                            <NavLink to='/category/mujer' className="nav-link">Mujer</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink to='/category/decoracion' className="nav-link">Decoración</NavLink>
+                        <li className="nav-item ">
+                            <NavLink to='/category/deco' className="nav-link">Deco</NavLink>
                         </li>
                         <span className="navbar-text">
                             <NavLink to='/cart'><CartWidget /></NavLink>
@@ -44,5 +43,5 @@ const NavBar = () => {
     </>
     );
 }
- 
+
 export default NavBar;
